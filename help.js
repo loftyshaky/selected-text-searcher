@@ -7,7 +7,7 @@ loaded_imgs = 0;
 
         var json_file = document.createElement('script');
         json_file.setAttribute('type', 'text/javascript');
-        json_file.setAttribute('src', 'file:///D:/Everything/Documents/GitHub/selected-text-searcher/locales/' + locale + '.js');
+        json_file.setAttribute('src', '/selected-text-searcher/locales/' + locale + '.js');
         document.body.appendChild(json_file);
 
         json_file.addEventListener('load', function () {
