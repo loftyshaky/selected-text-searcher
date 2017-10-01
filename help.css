@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Roboto";
-    src: url("/selected-text-searcher/Roboto-Light.ttf");
+    src: url("file:///D:/Everything/Documents/GitHub/selected-text-searcher/Roboto-Light.ttf");
 }
 
 * {
@@ -143,7 +143,7 @@ svg {
     margin-left: -36px;
     margin-top: -36px;
     position: absolute;
-    background: url("/selected-text-searcher/play_btn.png") no-repeat;
+    background: url("file:///D:/Everything/Documents/GitHub/selected-text-searcher/play_btn.png") no-repeat;
     cursor: pointer;
 }
 /*< youtube preveiw */

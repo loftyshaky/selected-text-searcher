@@ -1,4 +1,4 @@
-﻿total_imgs = document.querySelector('.youtube_player').length;
+﻿total_imgs = document.querySelectorAll('.youtube_player').length;
 loaded_imgs = 0;
 
 (function () {
@@ -7,7 +7,7 @@ loaded_imgs = 0;
 
         var json_file = document.createElement('script');
         json_file.setAttribute('type', 'text/javascript');
-        json_file.setAttribute('src', '/selected-text-searcher/locales/' + locale + '.js');
+        json_file.setAttribute('src', 'file:///D:/Everything/Documents/GitHub/selected-text-searcher/locales/' + locale + '.js');
         document.body.appendChild(json_file);
 
         json_file.addEventListener('load', function () {
@@ -36,28 +36,35 @@ loaded_imgs = 0;
             div.innerHTML = labnolThumb(v[n].dataset.id);
             div.onclick = labnolIframe;
             v[n].appendChild(div);
-
-            div.addEventListener('load', function () {
-                loaded_imgs++;
-console.log(loaded_imgs, total_imgs)
-                if (loaded_imgs === total_imgs) {
-                    var loading_screen = document.querySelector('.loading_screen');
-
-                    loading_screen.offsetWidth;
-                    loading_screen.style.opacity = '0';
-
-                    loading_screen.addEventListener('transitionend', function () {
-                        this.parentNode.removeChild(this);
-                    });
-                }
-            });
         }
     }
 
     function labnolThumb(id) {
-        var thumb = '<img src="https://img.youtube.com/vi/ID/maxresdefault.jpg">',
-            play = '<div class="play"></div>';
-        return thumb.replace("ID", id) + play;
+        img = new Image();
+
+        img.addEventListener('load', function () {
+            loaded_imgs++;
+            
+            if (loaded_imgs === total_imgs) {
+                var loading_screen = document.querySelector('.loading_screen');
+
+                loading_screen.offsetWidth;
+                loading_screen.style.opacity = '0';
+
+                loading_screen.addEventListener('transitionend', function () {
+                    this.parentNode.removeChild(this);
+                });
+            }
+        });
+
+        var img_url = 'https://img.youtube.com/vi/ID/maxresdefault.jpg';
+        var image_url = img_url.replace("ID", id);
+
+        img.src = image_url;
+
+        play = '<div class="play"></div>';
+
+        return img.outerHTML + play;
     }
 
     function labnolIframe() {
