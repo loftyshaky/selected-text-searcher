@@ -1,20 +1,7 @@
 ﻿(function () {
-    var locale = window.location.search.replace('?', '');
-
-    var title = {
-        "en": "? Help",
-        "ru": "? Помощь"
-    }
-
-    var loading_screen_text = {
-        "en": "Loading...",
-        "ru": "Загрузка..."
-    }
-
-    document.querySelector('title').textContent = loading_screen_text[locale];
-    document.querySelector('.loading_screen').textContent = loading_screen_text[locale];
-
     document.addEventListener("DOMContentLoaded", function () {
+        var locale = window.location.search.replace('?', '');
+
         var json_file = document.createElement('script');
         json_file.setAttribute('type', 'text/javascript');
         json_file.setAttribute('src', '/selected-text-searcher/locales/' + locale + '.js');
