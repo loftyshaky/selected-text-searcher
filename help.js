@@ -1,4 +1,7 @@
-﻿(function () {
+﻿total_imgs = document.querySelector('.youtube_player').length;
+loaded_imgs = 0;
+
+(function () {
     document.addEventListener("DOMContentLoaded", function () {
         var locale = window.location.search.replace('?', '');
 
@@ -33,16 +36,22 @@
             div.innerHTML = labnolThumb(v[n].dataset.id);
             div.onclick = labnolIframe;
             v[n].appendChild(div);
+
+            div.addEventListener('load', function () {
+                loaded_imgs++;
+console.log(loaded_imgs, total_imgs)
+                if (loaded_imgs === total_imgs) {
+                    var loading_screen = document.querySelector('.loading_screen');
+
+                    loading_screen.offsetWidth;
+                    loading_screen.style.opacity = '0';
+
+                    loading_screen.addEventListener('transitionend', function () {
+                        this.parentNode.removeChild(this);
+                    });
+                }
+            });
         }
-
-        var loading_screen = document.querySelector('.loading_screen');
-
-        loading_screen.offsetWidth;
-        loading_screen.style.opacity = '0';
-
-        loading_screen.addEventListener('transitionend', function () {
-            this.parentNode.removeChild(this);
-        });
     }
 
     function labnolThumb(id) {
