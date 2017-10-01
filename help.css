@@ -63,10 +63,17 @@ svg {
 }
 
 .loader {
+    font-size: 60px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+.loader svg {
+    height: 110px;
+    width: 110px;
+    display: block;
 }
 
 .all {
@@ -125,7 +132,7 @@ svg {
 }
 
 .youtube_player img:hover {
-    -webkit-filter: brightness(75%);
+    filter: brightness(75%);
 }
 
 .youtube_player .play {
@@ -136,7 +143,7 @@ svg {
     margin-left: -36px;
     margin-top: -36px;
     position: absolute;
-    background: url("/selected-text-searcher/imgs/play_btn.png") no-repeat;
+    background: url("/selected-text-searcher/play_btn.png") no-repeat;
     cursor: pointer;
 }
 /*< youtube preveiw */
@@ -153,4 +160,3 @@ svg {
 	width:198px;
 	height:24px;
 	margin:auto;
-}

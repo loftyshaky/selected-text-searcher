@@ -1,5 +1,5 @@
 ﻿json = {
-	    "title":
+	"title":
 	"? Помощь",
 	
 	"warning_text":
