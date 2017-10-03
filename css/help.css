@@ -32,12 +32,13 @@ a:active {
 }
 
 h1, p {
-    margin-top: 7px;
+    margin-top: 2px;
     margin-bottom: 7px;
 }
 
 h1 {
     font-size: 20px;
+    margin-bottom: 0;
 	color: #e47d7d;
 }
 
@@ -97,6 +98,7 @@ svg {
     overflow: hidden;
     max-width: 100%;
     background: #000;
+    margin-bottom: 7px;
 }
 
 .youtube_player iframe {
