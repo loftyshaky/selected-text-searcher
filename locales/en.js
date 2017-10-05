@@ -3,7 +3,7 @@
     "? Help",
 
     "warning_text":
-    "Please note that Selected Search Searcher will not work...<br>...in Chrome Web Store and on new tab page because of Google restrictions.<br>...until you reload the page to which you will head after the extension installation.",
+    "Please note that Selected Search Searcher will not work...<br>...in <a href='https://chrome.google.com/webstore'>chrome.google.com/webstore</a> (Chrome) / <a href='https://addons.mozilla.org'>addons.mozilla.org</a> (Firefox)..<br>...until you reload the page to which you will head after the extension installation.",
 
     "h1_quick_start_text":
     "Quick Start",
