@@ -3,7 +3,7 @@
 	"? Помощь",
 	
 	"warning_text":
-	"Обратите внимание, что Поисковик выделенного текста не будет работать...<br>... на <a href='https://chrome.google.com/webstore'>chrome.google.com/webstore</a> (Chrome) / <a href='https://addons.mozilla.org'>addons.mozilla.org</a> (Firefox).<br>...пока вы не перезагрузите страницу, на которую вы направитесь после установки расширения.",
+	"Обратите внимание, что Поисковик выделенного текста не будет работать...<br>... на chrome.google.com/webstore (Chrome) / addons.mozilla.org(Firefox).<br>...пока вы не перезагрузите страницу, на которую вы направитесь после установки расширения.",
 
 	"h1_quick_start_text":
 	"Быстрый старт",
