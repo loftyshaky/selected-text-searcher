@@ -3,7 +3,7 @@
     "? Help",
 
     "warning_text":
-    "Please note that Selected Search Searcher will not work...<br>...in chrome.google.com/webstore (Chrome) / addons.mozilla.org (Firefox).<br>...until you reload the page to which you will head after the extension installation.",
+    "Please note that Selected Search Searcher will not work...<br>...in new tab page.<br>...in chrome.google.com/webstore (Chrome) / addons.mozilla.org (Firefox).<br>...until you reload the page to which you will head after the extension installation.",
 
     "h1_quick_start_text":
     "Quick Start",
