@@ -63,10 +63,13 @@
     "You can search by...<br>...clicking on a tile (see the first video).<br>...clicking on <svg viewBox='0 0 75 75'><path d='M73.5,66.5L54.4,47.4C57.9,42.5,60,36.5,60,30C60,13.5,46.5,0,30,0S0,13.5,0,30s13.5,30,30,30c6.5,0,12.5-2.1,17.4-5.6 l19.1,19.1c1,1,2.3,1.5,3.5,1.5s2.6-0.5,3.5-1.5C75.5,71.6,75.5,68.4,73.5,66.5z M30,50c-11,0-20-9-20-20s9-20,20-20s20,9,20,20 S41,50,30,50z'/></svg> or by hitting Enter when you are typing in the search field.<br>...a hotkey (you can specify a hotkey when you adding or editing a tile).<br>...grabbing a chunk of text from the search input and dragging it on a tile (see the video below).",
 
     "p_drag_and_drop_zones_search_text":
-    "...grabbing a chunk of text from a webpage and dragging it on a tile (you will need to enable Drag & DropZones mode first - see the video below).",
+    "...grabbing a chunk of text from a webpage and dragging it on a tile (you will need to enable Drag & DropZones mode first - see the video below). To drag text as usual hold down Alt key.",
    
     "vid_drag_and_drop_zones_search_id":
     "fap1S0Ygl1A",
+	
+	"p_hold_down_ctrl":
+	"To open search results in the same tab hold down Ctrl key.",
 
     "h1_search_on_multiple_websites_text":
     "Search on Multiple Webites at Once",
