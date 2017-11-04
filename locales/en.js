@@ -67,6 +67,12 @@
    
     "vid_drag_and_drop_zones_search_id":
     "fap1S0Ygl1A",
+
+    "p_gesture_search_text":
+    "...gesture. First, enable gestures in options. Then go to a tile options, click on a \"Gesture\" input, hold down the right mouse button and draw a gesture. When you finshed drawing a gesture release the right mouse button and click \"Save\". Now you can search selected text by drawing your gesture anywhere on a screen. If you want to cancel search, left-click anywhere on a screen without releasing the right mouse button.",
+   
+    "vid_gesture_search_id":
+    "jMozjfBreOI",
 	
 	"p_hold_down_ctrl":
 	"To open search results in the same tab hold down Ctrl key.",
