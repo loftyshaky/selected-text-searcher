@@ -17,6 +17,15 @@
     "vid_quick_start_se_adding_id":
     "N__60EgnDys",
 
+    "h1_ses_import_text":
+    "Search Engines Import (Firefox Only)",
+
+    "p_ses_import_text":
+    "To import Firefox search engines go to options, click \"Delete All Tiles\" (optional) and select the \"search.json.mozlz4\" file usually located here:<br>Windows: C:\Users[user]\AppData\Roaming\Mozilla\Firefox\Profiles[profile-id]<br>macOS: Users/[user]/Library/Application Support/Firefox/Profiles/[profile-id]<br>macOS: Users/[user]/Library/Mozilla/Firefox/Profiles/[profile-id]<br>Linux: /home/[user]/.mozilla/firefox/[profile-id]<br>Note: Some of these folders may be hidden.",
+
+    "vid_ses_import_id":
+    "KYhvfD__1f8",
+
     "h1_opening_text":
     "Opening Selected Text Searcher",
 

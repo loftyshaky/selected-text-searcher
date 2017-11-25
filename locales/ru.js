@@ -17,6 +17,15 @@
 	"vid_quick_start_se_adding_id":
 	"AeTsreAXBj4",
 
+	"h1_ses_import_text":
+    "Импорт поисковых систем (только Firefox)",
+
+    "p_ses_import_text":
+    "Чтобы импортировать поисковые системы Firefox перейдите в опции, нажмите \"Удалить все плитки\" (не обязательно) и выберите файл \"search.json.mozlz4\" обычно расположеный здесь:<br>Windows: C:\Users[пользователь]\AppData\Roaming\Mozilla\Firefox\Profiles[id профиля]<br>macOS: Users/[пользователь]/Library/Application Support/Firefox/Profiles/[id профиля]<br>macOS: Users/[пользователь]/Library/Mozilla/Firefox/Profiles/[id профиля]<br>Linux: /home/[пользователь]/.mozilla/firefox/[id профиля]<br>Некоторые из этих папок могут быть скрыты.",
+
+    "vid_ses_import_id":
+    "xOcPFh-Dv1E",
+
 	"h1_opening_text":
 	"Открытие поисковика выделенного текста",
 
